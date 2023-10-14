@@ -61,7 +61,7 @@ export default function Banner() {
           <Image
             src={slider2}
             alt="young"
-            className="h-[562px] w-full object-contain"
+            className="h-full w-full object-contain"
             priority
           />
           {/* <BannerText text="Special Offer" /> */}
@@ -72,7 +72,7 @@ export default function Banner() {
           <Image
             src={slider3}
             alt="young"
-            className="h-[562px] w-full object-contain"
+            className="h-full w-full object-contain"
           />
           {/* <BannerText text="Seasonal Offers" /> */}
         </div>
@@ -82,7 +82,7 @@ export default function Banner() {
           <Image
             src={slider4}
             alt="young"
-            className="h-[562px] w-full object-contain"
+            className="h-full w-full object-contain"
           />
           {/* <BannerText text="Picked for men" /> */}
         </div>
@@ -92,7 +92,7 @@ export default function Banner() {
           <Image
             src={slider5}
             alt="young"
-            className="h-[562px] w-full object-contain"
+            className="h-full w-full object-contain"
           />
           {/* <BannerText text="Picked for men" /> */}
         </div>
