@@ -123,7 +123,7 @@ export const dinksProducts = [
     {
         id: 1,
         rating: 5,
-        name: "Zobo drink",
+        name: "Hibisco Tea Mix",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quas dolorum magni quos id beatae magnam tempore, porro ex totam rerum quis voluptatum, minus et natus atque deserunt vitae nostrum?",
         ingredients: "Zobo leaves, sugar, pineapple",
         image: "/assets/image1.jpeg",
@@ -132,7 +132,7 @@ export const dinksProducts = [
     {
         id: 2,
         rating: 5,
-        name: "Zobo drink",
+        name: "Hibisco Fruity Mix",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quas dolorum magni quos id beatae magnam tempore, porro ex totam rerum quis voluptatum, minus et natus atque deserunt vitae nostrum?",
         ingredients: "Zobo leaves, sugar, pineapple",
         image: "/assets/image2.jpeg",
@@ -141,7 +141,7 @@ export const dinksProducts = [
     {
         id: 3,
         rating: 5,
-        name: "Zobo drink",
+        name: "Chai Tea",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quas dolorum magni quos id beatae magnam tempore, porro ex totam rerum quis voluptatum, minus et natus atque deserunt vitae nostrum?",
         ingredients: "Zobo leaves, sugar, pineapple",
         image: "/assets/image3.jpeg",
@@ -150,7 +150,7 @@ export const dinksProducts = [
     {
         id: 4,
         rating: 5,
-        name: "Zobo drink",
+        name: "Hibisco Cola Mix",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quas dolorum magni quos id beatae magnam tempore, porro ex totam rerum quis voluptatum, minus et natus atque deserunt vitae nostrum?",
         ingredients: "Zobo leaves, sugar, pineapple",
         image: "/assets/canned.jpeg", 
