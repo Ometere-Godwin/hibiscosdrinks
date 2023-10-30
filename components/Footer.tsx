@@ -8,8 +8,8 @@ import {
 import logo from "../public/assets/logo.png";
 import Image from "next/image";
 import Container from "./Container";
-import Link from 'next/link'
-import cards from "../public/assets/cards.webp"
+import Link from "next/link";
+import cards from "../public/assets/cards.webp";
 
 export default function Footer() {
   return (
@@ -23,52 +23,62 @@ export default function Footer() {
           />
 
           <p className="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            iste odit accusantium velit quibusdam, maxime mollitia labore,
-            corrupti sunt commodi quasi consequatur ipsa totam, ratione sit
-            dicta corporis ad distinctio!
+            Hibisco is a premium non-alcoholic drink brand positioning to be the
+            best al ternat ive for people seeking h e a l t h i e r a n d n a t
+            u r a l d r i n k alternatives for themselves and their kids.
+            Hibisco has three variants Hibisco Tea, Hibisco Fruity and Hibisco
+            Cola.
           </p>
 
           {/* Social Media Links */}
           <div className="flex gap-x-2 items-center">
-          <a href="https://github.com/Ometere-Godwin "target="_blank">
-            <span
-              className="socialLink">
-              <BsGithub />
-            </span>         
-          </a>
+            <a href="# " target="_blank">
+              <span className="socialLink">
+                <BsGithub />
+              </span>
+            </a>
 
-          <a href="https://www.linkedin.com/in/ometere-oghene-godwin/ "target="_blank">
-            <span
-              className="socialLink">
-              <BsLinkedin />
-            </span>         
-          </a>
+            <a
+              href="#"
+              target="_blank"
+            >
+              <span className="socialLink">
+                <BsLinkedin />
+              </span>
+            </a>
           </div>
         </div>
 
         <div className="">
           <p className="text-lg">Latest Post</p>
           <ul className="flex gap-y-2 flex-col text-sm font-light">
-           <li className="flex flex-col">
-           <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">Where Music Is Headed Next</span>
-           <span className="text-orange-600">January 1 2024</span>
-           </li>
+            <li className="flex flex-col">
+              <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">
+                Where Music Is Headed Next
+              </span>
+              <span className="text-orange-600">January 1 2024</span>
+            </li>
 
-           <li className="flex flex-col">
-           <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">Where Music Is Headed Next</span>
-           <span className="text-orange-600">January 1 2024</span>
-           </li>
+            <li className="flex flex-col">
+              <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">
+                Where Music Is Headed Next
+              </span>
+              <span className="text-orange-600">January 1 2024</span>
+            </li>
 
-           <li className="flex flex-col">
-           <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">Where Music Is Headed Next</span>
-           <span className="text-orange-600">January 1 2024</span>
-           </li>
+            <li className="flex flex-col">
+              <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">
+                Where Music Is Headed Next
+              </span>
+              <span className="text-orange-600">January 1 2024</span>
+            </li>
 
-           <li className="flex flex-col">
-           <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">Where Music Is Headed Next</span>
-           <span className="text-orange-600">January 1 2024</span>
-           </li>
+            <li className="flex flex-col">
+              <span className="text-slate-100 hover:text-orange-600 cursor-pointer duration-200">
+                Where Music Is Headed Next
+              </span>
+              <span className="text-orange-600">January 1 2024</span>
+            </li>
           </ul>
         </div>
 
@@ -77,13 +87,13 @@ export default function Footer() {
           <p>Links</p>
           <ul className="text-base font-medium mt-2 flex-col gap-y-2">
             <Link href="/">
-            <li className="footerLinks">Home</li>
+              <li className="footerLinks">Home</li>
             </Link>
             <Link href="/cart">
-            <li className="footerLinks">Cart</li>
+              <li className="footerLinks">Cart</li>
             </Link>
             <Link href="/about">
-            <li className="footerLinks">About</li>
+              <li className="footerLinks">About</li>
             </Link>
             <li className="footerLinks">Newsletter</li>
             <li className="footerLinks">Contact</li>
@@ -92,10 +102,13 @@ export default function Footer() {
 
         <div>
           <p className="text-lg mb-2">Pay us with your trusted services</p>
-          <Image src={cards} alt="payment methods"
-          className="w-full h-10 object-cover"/>
+          <Image
+            src={cards}
+            alt="payment methods"
+            className="w-full h-10 object-cover"
+          />
         </div>
-      </Container> 
+      </Container>
     </div>
   );
 }
